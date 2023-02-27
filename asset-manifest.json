@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/lovely-days/static/css/main.4cab8289.css",
+    "main.js": "/lovely-days/static/js/main.c30c4044.js",
+    "static/js/787.92c7dc14.chunk.js": "/lovely-days/static/js/787.92c7dc14.chunk.js",
+    "static/media/цветочки.png": "/lovely-days/static/media/цветочки.3eb3d3d5fce1a5aeaa3b.png",
+    "static/media/слежу.png": "/lovely-days/static/media/слежу.512a821db07129e4c816.png",
+    "static/media/сегоднянееш.png": "/lovely-days/static/media/сегоднянееш.5fe31b44f3112a93b440.png",
+    "static/media/крутой.png": "/lovely-days/static/media/крутой.b9369c7ac83818ffc5b6.png",
+    "static/media/убейтеменя.png": "/lovely-days/static/media/убейтеменя.70924980bde9ac04072a.png",
+    "static/media/дя.png": "/lovely-days/static/media/дя.d11907e3c55834309332.png",
+    "static/media/доброеутро.png": "/lovely-days/static/media/доброеутро.ba8d6b1f55d7483bdbbf.png",
+    "static/media/дану.png": "/lovely-days/static/media/дану.d122ea51bacd0fe4d46a.png",
+    "static/media/мояжопка.png": "/lovely-days/static/media/мояжопка.c57c10b1785f856d307d.png",
+    "static/media/отибись.png": "/lovely-days/static/media/отибись.a803da4f75ee8fb6cb33.png",
+    "static/media/ааааа.png": "/lovely-days/static/media/ааааа.52fa06133342e4997db7.png",
+    "static/media/работаю.png": "/lovely-days/static/media/работаю.2d4b843fe94ddff287be.png",
+    "static/media/вздох.png": "/lovely-days/static/media/вздох.0d4289ed58b76b32b411.png",
+    "static/media/ыаыаы.png": "/lovely-days/static/media/ыаыаы.3712d0e3ca01cac96ef9.png",
+    "static/media/ууу сука.png": "/lovely-days/static/media/ууу сука.f5cb945a870c4702d5c6.png",
+    "static/media/гдеё.png": "/lovely-days/static/media/гдеё.6c38a369d5b36e9c1e64.png",
+    "static/media/сплю.png": "/lovely-days/static/media/сплю.b8a3d66bc62ddc05709d.png",
+    "static/media/вахуе.png": "/lovely-days/static/media/вахуе.3aec35e009d27486e290.png",
+    "static/media/умоляет.png": "/lovely-days/static/media/умоляет.734beb48697d57018770.png",
+    "static/media/тебепизда.png": "/lovely-days/static/media/тебепизда.094644fc1efcb390757c.png",
+    "static/media/rotate-notification.png": "/lovely-days/static/media/rotate-notification.efbcda4c0c5d7847f05d.png",
+    "static/media/грусно.png": "/lovely-days/static/media/грусно.c27357a7fab7a2770907.png",
+    "static/media/буп.png": "/lovely-days/static/media/буп.fe353602d7a0aa88bf4b.png",
+    "static/media/злится.png": "/lovely-days/static/media/злится.2696bfa68e26f5a29950.png",
+    "static/media/heart.png": "/lovely-days/static/media/heart.f78e0d6969b03b174093.png",
+    "index.html": "/lovely-days/index.html",
+    "main.4cab8289.css.map": "/lovely-days/static/css/main.4cab8289.css.map",
+    "main.c30c4044.js.map": "/lovely-days/static/js/main.c30c4044.js.map",
+    "787.92c7dc14.chunk.js.map": "/lovely-days/static/js/787.92c7dc14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cab8289.css",
+    "static/js/main.c30c4044.js"
+  ]
+}
