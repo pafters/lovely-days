@@ -1,19 +1,11 @@
-import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DeviceOrientation, { Orientation } from 'react-screen-orientation';
 
-import ScreenSwitcher from './pages/ScreenSwitcher';
-
 import './App.css';
+import MainScreen from './pages/main/MainScreen';
 import RotateNotice from './pages/rotateNotice/RotateNotice';
 
 function App() {
-  const [screenName, updateScreen] = useState('Splash');
-
-  useEffect(() => {
-    setTimeout(() => {
-      updateScreen('Main');
-    }, 3000);
-  }, []);
 
   return (
     <DeviceOrientation lockOrientation={'landscape'}>
@@ -22,7 +14,13 @@ function App() {
       </Orientation>
       <Orientation orientation='portrait' alwaysRender={false}>
         <div className="App">
-            <ScreenSwitcher screenName={screenName} updateScreen={updateScreen} />
+          <Router>
+            <Routes>
+              <Route exact path='/lovely-days-counter/maxnastya' element={<MainScreen date={'2022-09-05 18:00:00'} />} />
+              <Route exact path='/lovely-days-counter/slavanastya' element={<MainScreen date={'2022-06-06 17:40:00'} />} />
+              <Route exact path='/lovely-days-counter/vovadasha' element={<MainScreen date={'2019-06-02 23:15:00'} />} />
+            </Routes>
+          </Router>
         </div>
       </Orientation>
     </DeviceOrientation>

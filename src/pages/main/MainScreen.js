@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 import LoveFooter from "../footer/LoveFooter";
 
 
-export default function MainScreen() {
-
-    const starts = moment('2022-10-20 23:08:00');
+export default function MainScreen(data) {
+    const { date } = data;
+    const starts = moment(date);
     const [dateNow, updateDateNow] = useState(moment());
 
     const [diff, updateDiff] = useState(moment.preciseDiff(starts, dateNow, true));
@@ -24,6 +24,15 @@ export default function MainScreen() {
         }
     }, [diff]);
 
+    useEffect(() => {
+        if (date === '2022-06-06 17:40:00') {
+            document.body.style.backgroundColor = '#4c9141'
+        }
+        if (date === '2022-09-05 18:00:00') {
+            document.body.style.backgroundColor = '#ffb2d0';
+        }
+
+    }, [])
 
     return (
         <div>
